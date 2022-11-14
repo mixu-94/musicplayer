@@ -1,3 +1,4 @@
+
 import "./App.css";
 import Card from "./components/Card/Card";
 import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
@@ -10,6 +11,7 @@ function App() {
         <Card />
         <MusicPlayer />
       </main>
+
     </div>
   );
 }

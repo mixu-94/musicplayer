@@ -1,0 +1,23 @@
+.footer-section{
+  margin-bottom: 0em;
+  background-color: #031E36;
+  height:12rem;
+  border :1px solid black;
+}
+.footer-section p{
+    margin-top: 2em;
+    color:white;
+}
+.footer-section button{
+    cursor: pointer;
+}
+.signUp-btn{
+    width:10em;
+    height:2.2em;
+    margin-left: 1em;
+    background-color:#E0E8F0;
+    border-radius: 10px;
+}
+.footer-icons{
+    margin: 0.5em 0.5em;
+}
