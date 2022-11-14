@@ -16,7 +16,6 @@ const MusicPlayer = () => {
 
   return (
     <div className="player-wrapper">
-      <h1>Cool Music Player</h1>
       {data.map((item) => (
         <div id="player-control">
           <div key={item.albumId}>{`Artist Name: ${item.artistName}`}</div>
