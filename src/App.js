@@ -3,13 +3,18 @@ import React, { useState } from "react";
 import Card from "./components/Card/Card";
 import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
 import Header from "./components/Header/Header";
+import Searchbar from "./components/Searchbar/Searchbar";
 import Footer from "./components/Footer/Footer";
+
 function App() {
   const [song, setSong] = useState("playlist/4033789");
   return (
     <div className="App">
+
+
       <div className="main-content">
         <Header />
+        <Searchbar/>
         <main>
           <Card
             title="Blinding lights"
