@@ -18,10 +18,10 @@ const MusicPlayer = () => {
     <div className="player-wrapper">
       <h1>Cool Music Player</h1>
       {data.map((item) => (
-        <div>
+        <div id="player-control">
           <div key={item.albumId}>{`Artist Name: ${item.artistName}`}</div>
+          <div key={item.albumId}>{`Artist Album: ${item.albumName}`}</div>
           <AudioPlayer
-            autoPlay
             src={item.previewURL}
             onPlay={(e) => console.log("onPlay")}
           />
