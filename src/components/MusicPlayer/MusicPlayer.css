@@ -1,0 +1,19 @@
+.player-wrapper .visualSoundContainer .visualSoundContainer__related {
+  display: none;
+}
+
+.player-wrapper .progress.sc-background-orange {
+  background-color: var(--color-primary);
+}
+
+.player-wrapper h1 {
+  color: red;
+}
+
+.react-player__play-icon {
+  background-color: aqua;
+}
+
+.playButton {
+  color: green !important;
+}
