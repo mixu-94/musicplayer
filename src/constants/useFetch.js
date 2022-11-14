@@ -32,7 +32,7 @@ function useFetch(url){
   const getData = async () => {
     setLoading(true);
     await axios
-      .get(`${url}&access_token=${process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN}`)
+      .get(`${url}`)
       .then((response) => {
         setData(response.data);
       })
