@@ -3,6 +3,7 @@ import axios from "axios";
 
 
 
+
 function useFetch(url){
 
   const [data, setData] = useState( null );
@@ -32,7 +33,7 @@ function useFetch(url){
   const getData = async () => {
     setLoading(true);
     await axios
-      .get(`${url}`)
+      .get(url)
       .then((response) => {
         setData(response.data);
       })
