@@ -49,6 +49,12 @@ function handleButton() {
     inputvalue.current.value = ""
 }
 
+const listofsongs = () => {
+    searchlist.map((item) => {
+        console.log(item)
+    })
+}
+
 
 
   return (
