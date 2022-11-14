@@ -25,6 +25,8 @@ code {
   align-items: center;
   padding: 10px;
   margin: 10px;
+  font-size: 22px;
+  color: white;
 }
 
 .card-text-container{
@@ -63,4 +65,26 @@ inset 0 0 0.8rem greenyellow; */
   margin: 10px;
   background-color:  #04d282;
   opacity: 97%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-style {
+    background-color: lightblue;
+    height: 40px;
+    font-size: 19px;
+    
+  }
+  .card-style:active{
+    display: flex;
+    width: auto;
+    height: 42px;
+    border: 2px solid #E0E8F0;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color:  #04d282;
+    opacity: 97%;
+  }
 }
