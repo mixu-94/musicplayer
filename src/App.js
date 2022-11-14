@@ -1,8 +1,7 @@
-
 import "./App.css";
-import Card from "./components/Card";
+import Card from "./components/Card/Card";
 import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
 
 function App() {
   return (
@@ -12,8 +11,6 @@ function App() {
       <MusicPlayer />
     </div>
   );
+}
 
-  }
-
-  export default App
-
+export default App;
