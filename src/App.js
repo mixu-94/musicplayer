@@ -1,12 +1,17 @@
 
-import './App.css';
-import Footer from './components/Footer/Footer';
-
-
+import "./App.css";
+import Card from "./components/Card/Card";
+import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
+import Header from "./components/Header/Header";
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <Header />
+      <main>
+        <Card />
+        <MusicPlayer />
+      </main>
+
     </div>
   );
 }

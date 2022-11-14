@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Biryani Bold";
+  src: url("../public/fonts/Biryani-Bold.woff2") format("woff2"),
+    url("../public/fonts/Biryani-Bold.woff") format("woff"),
+    url("../public/fonts/Biryani-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Biryani";
+  src: url("../public/fonts/Biryani-Regular.woff2") format("woff2"),
+    url("../public/fonts/Biryani-Regular.woff") format("woff"),
+    url("../public/fonts/Biryani-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-primary: #00ecde;
+  --color-secondary: #04d282;
+  --color-dark: #031e36;
+  --color-light: #e0e8f0;
+  --font-bold: "Biryani Bold", sans-serif;
+  --font-standard: "Biryani", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-standard);
+}
+
+ul {
+  padding-inline-start: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-bold);
+}
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card-style {
+  display: flex;
+  width: auto;
+  height: 50px;
+  border: 2px solid gainsboro;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  margin: 5px;
+}
+.card-text {
+  margin: 0;
+  color: #e0e8f0;
+}
+.card-img {
+  height: 56px;
+  width: auto;
+  border-radius: 100%;
+  border: 1px solid #00ecde;
+  /* box-shadow: 0 0 .2rem #fff,
+0 0 .1rem #fff,
+0 0 0.2rem greenyellow,
+0 0 0.1rem greenyellow,
+0 0 1.1rem greenyellow,
+inset 0 0 0.8rem greenyellow; */
+}
+.card-style:active {
+  display: flex;
+  width: auto;
+  height: 62px;
+  border: 2px solid #e0e8f0;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #04d282;
+  opacity: 97%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-style {
+    background-color: lightblue;
+    height: 40px;
+    font-size: 19px;
+  }
+  .card-style:active {
+    display: flex;
+    width: auto;
+    height: 42px;
+    border: 2px solid #e0e8f0;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #04d282;
+    opacity: 97%;
+  }
 }
