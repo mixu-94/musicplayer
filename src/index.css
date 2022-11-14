@@ -52,39 +52,34 @@ h3 {
 .card-style {
   display: flex;
   width: auto;
-  height: 50px;
+  height: 60px;
   border: 2px solid gainsboro;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
   padding: 10px;
   margin: 10px;
-  font-size: 22px;
-  color: white;
+  color:var(--color-dark);
+  border-radius: 10px;
 }
 
 .card-text-container {
   display: flex;
   flex-direction: column;
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content;
+  height: fit-content; */
   margin: 5px;
 }
 .card-text {
   margin: 0;
-  color: #e0e8f0;
+  color: var(--color-dark);
 }
 .card-img {
   height: 56px;
   width: auto;
   border-radius: 100%;
   border: 1px solid #00ecde;
-  /* box-shadow: 0 0 .2rem #fff,
-0 0 .1rem #fff,
-0 0 0.2rem greenyellow,
-0 0 0.1rem greenyellow,
-0 0 1.1rem greenyellow,
-inset 0 0 0.8rem greenyellow; */
+
 }
 .card-style:active {
   display: flex;
@@ -102,14 +97,14 @@ inset 0 0 0.8rem greenyellow; */
 
 @media only screen and (max-width: 600px) {
   .card-style {
-    background-color: lightblue; 
-    height: 40px;
-    font-size: 19px;
+    height: 52px;
+    font-size: 15px;
+    padding: 10px;
   }
   .card-style:active {
     display: flex;
     width: auto;
-    height: 42px;
+    height: 55px;
     border: 2px solid #e0e8f0;
     justify-content: space-between;
     justify-items: center;
@@ -118,5 +113,13 @@ inset 0 0 0.8rem greenyellow; */
     margin: 10px;
     background-color: #04d282;
     opacity: 97%;
+  
   }
+  .card-img {
+    height: 47px;
+    width: auto;
+    border-radius: 100%;
+    border: 1px solid #00ecde;
+  }
+
 }
