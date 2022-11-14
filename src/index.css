@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #031E36 ;
   
 }
 
@@ -36,12 +37,13 @@ code {
 }
 .card-text{
   margin: 0;
+  color:  #E0E8F0 ;
 }
 .card-img{
 height: 56px;
 width: auto;
 border-radius: 100%;
-border:1px solid rgb(245, 130, 68);
+border:1px solid #00ECDE;
 /* box-shadow: 0 0 .2rem #fff,
 0 0 .1rem #fff,
 0 0 0.2rem greenyellow,
@@ -53,12 +55,12 @@ inset 0 0 0.8rem greenyellow; */
   display: flex;
   width: auto;
   height: 62px;
-  border: 2px solid gainsboro;
+  border: 2px solid #E0E8F0;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
   padding: 10px;
   margin: 10px;
-  background-color:  rgb(245, 130, 68);
-  opacity: 83%;
+  background-color:  #04d282;
+  opacity: 97%;
 }
