@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
-      <MusicPlayer />
+      <main>
+        <Card />
+        <MusicPlayer />
+      </main>
     </div>
   );
 }
