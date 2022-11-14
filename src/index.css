@@ -5,9 +5,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.card-style{
+  display: flex;
+  width: auto;
+  height: 50px;
+  border: 2px solid gainsboro;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-text-container{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  margin: 5px;
+
+}
+.card-text{
+  margin: 0;
+}
+.card-img{
+height: 56px;
+width: auto;
+border-radius: 100%;
+border:1px solid rgb(245, 130, 68);
+/* box-shadow: 0 0 .2rem #fff,
+0 0 .1rem #fff,
+0 0 0.2rem greenyellow,
+0 0 0.1rem greenyellow,
+0 0 1.1rem greenyellow,
+inset 0 0 0.8rem greenyellow; */
+}
+.card-style:active{
+  display: flex;
+  width: auto;
+  height: 62px;
+  border: 2px solid gainsboro;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color:  rgb(245, 130, 68);
+  opacity: 83%;
 }
