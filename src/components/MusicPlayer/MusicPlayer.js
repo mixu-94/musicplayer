@@ -5,7 +5,6 @@ import "./MusicPlayer.css";
 const MusicPlayer = () => {
   return (
     <div className="player-wrapper">
-      <h1>test</h1>
       <iframe
         title="deezer-widget"
         src="https://widget.deezer.com/widget/dark/playlist/4033789"
