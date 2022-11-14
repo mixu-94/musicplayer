@@ -1,0 +1,123 @@
+.header {
+    height: auto;
+    background-color: #031E69;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    width: 20%;
+    position: relative;
+    left: 0;
+}
+.header-logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.header-navitems {
+    
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+
+}
+.header-navitem {
+    color: #E0E8F0;
+    text-decoration: none;
+}
+
+.header-navitem:hover {
+    border-bottom: solid #00ECDE 
+}
+
+.header-socials {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+.header-socials-icon {
+    fill: #E0E8F0;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.header-socials-icon:hover {
+    fill: #00ECDE;
+
+
+}
+.header-navbar-menu {
+    visibility: hidden;
+    margin: 30px;
+    color: #00ECDE;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .header-socials {
+        visibility: hidden;
+    }
+
+    .header-navbar-click{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .header-navitems {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      top: 150px;
+      left: -200%;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      transition: all 0.5s ease;
+      border-radius: 30px;
+    
+    }
+    .header-navitem {
+        
+        display: flex;
+        padding: 10px;
+        height: 70%;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        border-width: 0px;
+        background-color: #031E69;
+        opacity: 1;
+        border-radius: 30px;
+        color: #E0E8F0;
+    }
+    .header-navitem:hover {
+        border-bottom: none;
+        background-color: #E0E8F0;
+        color: #031E69;
+    }
+
+    .header-navitems--active {
+    left: -00px;
+    }
+    .header-navbar-menu {
+        visibility: visible;
+        fill: #00ECDE;
+        
+    }
+
+}
