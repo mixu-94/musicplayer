@@ -5,6 +5,7 @@ import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
 import Header from "./components/Header/Header";
 import Searchbar from "./components/Searchbar/Searchbar";
 import Footer from "./components/Footer/Footer";
+import Searchbar from "./components/Searchbar/Searchbar";
 
 function App() {
   const [song, setSong] = useState("playlist/4033789");
