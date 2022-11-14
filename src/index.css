@@ -69,6 +69,7 @@ h3 {
 main {
   max-width: 1200px;
   margin: auto;
+  padding-block: 70px;
 }
 
 .card-style {
