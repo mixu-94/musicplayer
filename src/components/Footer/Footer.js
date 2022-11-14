@@ -1,6 +1,7 @@
 import React from 'react';
+import './Footer.css'
 
-const MusicPlayer = () => {
+const Footer = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const MusicPlayer = () => {
     );
 }
 
-export default MusicPlayer;
+export default Footer;

@@ -1,6 +1,7 @@
 import React from 'react';
+import './MusicPlayer.css'
 
-const Card = () => {
+const MusicPlayer = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const Card = () => {
     );
 }
 
-export default Card;
+export default MusicPlayer;
