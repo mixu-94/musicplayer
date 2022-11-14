@@ -48,6 +48,10 @@ h2,
 h3 {
   font-family: var(--font-bold);
 }
+main {
+  max-width: 1200px;
+  margin: auto;
+}
 
 .card-style {
   display: flex;
@@ -102,7 +106,7 @@ inset 0 0 0.8rem greenyellow; */
 
 @media only screen and (max-width: 600px) {
   .card-style {
-    background-color: lightblue; 
+    background-color: lightblue;
     height: 40px;
     font-size: 19px;
   }
